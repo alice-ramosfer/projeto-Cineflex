@@ -11,6 +11,7 @@ import logo from "../asserts/logo.png"
 
 
 export default function Cineflex(){
+    
     const [selectAssento, setSelectAssento] = useState([]);
     const [name, setName] = useState("");
     const [cpf, setCpf] =useState("")
