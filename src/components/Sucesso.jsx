@@ -55,11 +55,11 @@ const Container = styled.div`
     flex-direction:column;
     padding:20px;
     color:#FFFFFF;
-    height:421px;
     background-color:#2B2D36;
     width:338px;
     border-radius:8px;
     gap:19px;
+    
 `;
 const Ifomacoes =styled.div`
     display:flex;
