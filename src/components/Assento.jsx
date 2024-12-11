@@ -44,7 +44,7 @@ export default function Assento({ setFilmSelect, setSelectAssento, name, setName
             };
             const requisicao =axios.post("https://mock-api.driven.com.br/api/v8/cineflex/seats/book-many", dados);
             requisicao.then(navigate("/sucesso"));
-        }else{alert("Preecha todos os campos corretamente");}
+        }else{alert("Preencha todos os campos corretamente");}
 
     }
 
