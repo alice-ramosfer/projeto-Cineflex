@@ -118,5 +118,6 @@ const SubmitButon = styled.button`
     font-weight: 700;
     line-height: 29.35px;
     text-align: center;
+    cursor:pointer;
 
 `;

@@ -23,21 +23,7 @@ export default function Filmes(){
 
 }
 
-const StyledTopo = styled.div`
-    display:flex;
-    align-items:center;
-    justify-content:center;
-    height:78px;
-    color:#FFFFFF;
-`
 
-const StyledFilmes = styled.li`
-    display:flex;
-    align-items:center;
-    justify-content:center;
-    
-
-`
 const Imagem = styled.img`
     width: 145px;
     height: 210px;
@@ -51,4 +37,8 @@ const Imagem = styled.img`
 
 
 `
-const LinkImg = styled(Link)``
+const LinkImg = styled(Link)`
+    &:hover {
+        opacity: 0.8; 
+    }
+`

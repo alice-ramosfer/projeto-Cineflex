@@ -71,5 +71,9 @@ const StyledHorario = styled.button`
     text-align: center;
     text-underline-position: from-font;
     text-decoration-skip-ink: none;
+    cursor:pointer;
+    &:hover {
+        opacity: 0.8;
+    }
 
 `;
